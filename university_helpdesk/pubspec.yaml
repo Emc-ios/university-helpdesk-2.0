@@ -19,8 +19,11 @@ dependencies:
   fl_chart: ^0.66.0
   # Google Generative AI SDK - Updated to latest version
   google_generative_ai: ^0.4.7
-  image_picker: ^1.0.7 # For picking photos
-  firebase_storage: ^11.6.0 # For saving photos to the cloud
+  appwrite: ^11.0.0 # NEW: Appwrite SDK
+  image_picker: ^1.0.7 # NEW: For picking photos
+
+dependency_overrides:
+  http: ^1.2.0 # Replace with the compatible version
 
 dev_dependencies:
   flutter_test:
