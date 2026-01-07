@@ -1,0 +1,31 @@
+name: university_helpdesk
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Firebase Core Dependencies
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  # For attractive UI components (optional but recommended)
+  google_fonts: ^6.1.0
+  intl: ^0.20.2
+  fl_chart: ^0.66.0
+  # Google Generative AI SDK - Updated to latest version
+  google_generative_ai: ^0.4.7
+  image_picker: ^1.0.7 # For picking photos
+  firebase_storage: ^11.6.0 # For saving photos to the cloud
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

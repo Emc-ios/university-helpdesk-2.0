@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968031757794",
+    "project_id": "university-helpdesk",
+    "storage_bucket": "university-helpdesk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968031757794:android:fbe8515e658baa856c85bb",
+        "android_client_info": {
+          "package_name": "com.example.university_helpdesk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLKF-CI5KXqdvC-qwSTKzkUaLn04QXoCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
